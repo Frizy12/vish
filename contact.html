@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Сельское Хозяйство</title> 
+    <link rel="stylesheet" href="/styles/styles.css"> 
+</head> 
+<body> 
+    <header> 
+        <h1>Сельское Хозяйство</h1> 
+        <img class="" src="https://selhozproizvoditeli.ru/web/styles/logo/public/logo/logo-676_0.png?itok=OEi4bDwH"> 
+ 
+    </header> 
+    <nav> 
+        <ul> 
+            <li><a href="index.html">Главная</a></li> 
+            <li><a href="about.html">О нас</a></li> 
+            <li><a href="contact.html">Контакты</a></li> 
+        </ul> 
+    </nav> 
+ 
+    <title>Контакты</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #2E1114;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #64485C;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ADADAD;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+<h1>Форма контакта</h1>
+
+<h3>Контакт</h3>
+
+<div class="container">
+  <form action="../action_page.php">
+    <label for="fname">Имя</label>
+    <input type="text" id="fname" name="firstname" placeholder="Ваше имя..">
+
+    <label for="lname">Фамилия</label>
+    <input type="text" id="lname" name="lastname" placeholder="Ваша фамилия..">
+
+    <label for="country">Страна</label>
+    <select id="country" name="country">
+      <option value="australia">Австралия</option>
+      <option value="canada">Канада</option>
+      <option value="usa">США</option>
+      <option value="usa">Россия</option>
+    </select>
+
+    <label for="subject">Вопрос</label>
+    <textarea id="subject" name="subject" placeholder="Написать нечто.." style="height:200px"></textarea>
+
+    <input type="submit" value="Отправить">
+  </form>
+</div>
+
+</body>
+</html>
+
+
+
+
+      
